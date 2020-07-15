@@ -1,0 +1,15 @@
+{
+  "include": [
+    "src/**/*",
+    "./App.js"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "utils/*": ["./src/utils/*"],
+      "reducers/*": ["./src/reducers/*"],
+    }
+  }
+}
